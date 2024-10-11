@@ -1,0 +1,420 @@
+
+
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+   
+ 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section#firstsection header{}
+section#firstsection header section.wrapper{
+  display: flex; 
+}
+section#firstsection header section.wrapper nav.left{
+    width: 100px;
+}
+section#firstsection header section.wrapper nav.left h1 a img{
+	width: 150px;
+	display: block;
+	margin-left: 10px;
+}
+section#firstsectionheader section.wrapper nav.right{
+    display: flex;
+    width: 100px;
+}
+section#firstsection header section.wrapper nav.right ul{
+    display: flex;
+    margin-left: 850px;
+}
+
+section#firstsection header section.wrapper nav.right ul li{ 
+    margin-left:20px;
+    list-style: none;
+}
+.strtselect{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 14px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    border-color:gray;
+    width: 130px;
+}
+.strt{
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 14px;
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border-color: red;
+
+   
+   
+}
+
+
+section#content{}
+section#content div.note{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section#content div.note p{
+    font-size: 60px;
+    color: beige;
+    font-weight: 800;
+    line-height: 70px;
+
+}
+section#content div.end{
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+section#content div.end small{
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    color: beige;
+    font-weight: 600;
+}
+section#content div.end p{
+    font-weight: 600;
+    font-size: 20px;
+    color: beige;
+
+    
+}
+.im{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.mail{width: 100%;
+position: relative;
+bottom: 50px;}
+.mail form{
+margin-left: 450px;
+position: relative;
+bottom: 40px;
+}
+.mail form input[type="email"]{
+    width: 350px;
+    height: 35px;
+    padding: 9px 15px ;
+    background-color: black;
+    border-radius: 4px;
+    color: beige;
+    border: 1px solid #c1c7d0;
+    font-size: 16px;
+}
+.icn{
+    font-size: 20px;
+}
+.btnget{
+    margin-top: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 14px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border-color: red;
+    width: auto;
+}
+.line{
+width: 100%;
+
+
+}
+.one{
+        height: 5px;
+        border: 1px solid black;
+        background-color: rgb(160, 6, 6);
+        border-radius: 50% 50%;
+        box-shadow: 0 8px 14px rgba(80, 8, 235, 0.3);
+       
+}
+
+.top{
+    
+    width: auto;
+    height: 500px;
+    
+  
+} 
+.top h1{
+    font-size: 25px;
+    color: beige;
+    font-weight: 500;
+    margin-left: 170px;
+}
+.top form{
+    margin-left: 150px;
+}
+.top form select{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 14px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    border-color:gray;
+    width: 130px;
+    height: 40px;
+}
+.secndpart{
+    width: 100%;
+}
+.moviecontainer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-left: 150px;
+
+}
+.filimcard{
+    margin-left: 50px;
+    
+
+}
+.top-badge{
+    color: rgb(242, 242, 226);
+    font-size: large;
+    width: 30%;
+    background-color: red;
+    text-align: center;
+    margin-left: 150px;
+    position: relative;
+    bottom: -45px;
+    border-bottom-left-radius: 5px;
+    display: block;
+    width: 50px;
+ 
+
+}
+
+
+.mov{
+ display: block;
+ width: 200px;
+ height: 250px;
+ border-radius: 8px;
+
+}
+
+.bu{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 7px 14px;
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border-color: red;
+    width: auto;
+    margin-left: 20px;
+    position: relative;
+    bottom: 35px;
+  
+
+}
+.num{
+    width: 100%;
+    display: flex;
+    background-color: black
+    ;
+}
+.num h1{
+    color: rgb(16, 16, 10);
+    font-size: 120px;
+    text-shadow: 3px 3px rgb(249, 242, 242);
+    position: relative;
+    bottom: 320px;
+    margin-right: 20px;
+}
+
+.mov:hover {
+    transform: scale(1.1); 
+  }
+ .thirdpart{
+   position: relative;
+   bottom: 30px;
+    width: 100%;
+    margin-left: 130px;
+ }
+ .third{
+    background-color: black;
+    display: flex;
+
+
+ }
+ .h1{
+    color: bisque;
+    margin-left: 22px;
+ }
+ .a{
+    width: 270px;
+    height: 280px;
+    margin-left: 30px;
+    background-image: linear-gradient(to bottom right,rgb(88, 5, 88) , rgb(32, 3, 32));
+    border-radius: 10px;
+
+    
+ }
+ .a h1{
+    color: bisque;
+    margin-left: 15px;
+   
+ }      
+ .a p{
+    color: bisque;
+    margin-left: 15px; 
+ }
+ .a img{
+    display: block;
+    width: 50px;
+    margin-left: 200px; 
+    
+ }
+ #abc{
+    margin-top: 40px;
+ }
+ .wrapper{
+    color: beige;
+    width: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+
+ }
+ .zero{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 80px;
+    background-color: #363636;
+    margin-top: 10px;
+    padding-left: 30px;
+  
+ }
+ .zero:hover{
+    background-color: #808080;
+    
+ }
+ .zero p{
+    font-weight: 500;
+    font-size: 30px;
+ }
+.last{
+    color: beige;
+    padding-left: 150px;
+    margin-top: 15px;
+}
+.uniq{
+    font-size: 50px;
+}
+.zero a{text-decoration: none;
+color: beige;
+}
+.end{
+    text-align: center;
+}
+.end p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.end form{
+   position: relative;
+   bottom: 50px;
+}
+.end form input[type="email"]{
+    width: 550px;
+    height: 35px;
+    padding: 9px 15px ;
+    background-color: #1f2933;
+    border-radius: 4px;
+    color: beige;
+    border: 1px solid #c1c7d0;
+    font-size: 16px;
+
+    
+}
+.wrapperend{
+  display: flex;
+   
+}
+#footer{
+   
+}
+.gray{
+    color: #c1c7d0;
+    margin-left: 130px;
+}
+.gray a{
+    color: #c1c7d0;
+}
+.eak{
+    margin-left: 100px;
+}
+.eak ul li{
+    list-style: non;
+    margin-top: 17px;
+    
+   
+}
+.eak ul li a{
+    color: #c1c7d0;
+}
+.over{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.over form select{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 14px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    border-color:gray;
+    width: 130px;
+}
+.tho{
+    color: #c1c7d0;
+    margin-left: 140px;
+    position: relative;
+    bottom: -30px;
+}
+.rr{
+    height: 150px;
+    width: 100%;
+}
+
+
+ 
+ 
